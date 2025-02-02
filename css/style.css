@@ -22,17 +22,19 @@ body {
 .flex-container {
     display: flex;
 }
+
+.white-text {
+    color: white;
+}
 /* end utility */
 
 /* layout */
 .container {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
-
-    /* debug */
-    border: 1px solid black;
 }
 
+/* info */
 .subtitle {
     color: rgb(227, 37, 113);
     font-size: 75px;
@@ -41,5 +43,42 @@ body {
 
 .info {
     font-size: 35px;
+    padding-bottom: 80px;
 } 
+/* end info */
+
+/* cards */
+.row.flex-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col {
+    width: calc(100% / 3 - 50px);
+    margin-bottom: 80px;
+    background-color: rgb(2, 0, 27);
+}
+
+.avatar {
+    height: 180px;
+}
+
+.profile {
+    padding: 20px 30px;
+}
+
+.name {
+    font-size: 35px;
+}
+
+.personal-info {
+    font-size: 28px;
+    padding-top: 10px;
+}
+
+.personal-info.e-mail {
+    color: rgb(145, 200, 255);
+}
+/* end cards */
+
 /* end layout */
