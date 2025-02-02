@@ -10,6 +10,36 @@ img {
 }
 /* end reset */
 
-/* layout */
+/* untility */
+body {
+    font-family: fredoka, sans-serif;
+}
 
+.center-text {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+}
+/* end utility */
+
+/* layout */
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+    /* debug */
+    border: 1px solid black;
+}
+
+.subtitle {
+    color: rgb(227, 37, 113);
+    font-size: 75px;
+    padding: 60px 0 80px;
+}
+
+.info {
+    font-size: 35px;
+} 
 /* end layout */
