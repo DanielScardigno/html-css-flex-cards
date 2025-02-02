@@ -57,6 +57,7 @@ body {
     width: calc(100% / 3 - 50px);
     margin-bottom: 80px;
     background-color: rgb(2, 0, 27);
+    box-shadow: 0 0 10px grey;
 }
 
 .avatar {
